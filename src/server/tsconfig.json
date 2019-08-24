@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "sourceMap": true,
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "outDir": "../../dist/server-root",
+    "rootDir": ".",
+    "lib": ["es6"],
+    "moduleResolution": "node",
+    "types": ["node"],
+    "baseUrl": "./",
+    "incremental": true,
+    "paths": {
+      "@/*": ["./*"],
+      "@shared/*": ["../shared/*"]
+    }
+  },
+  "files": ["./main.ts"],
+  "include": [
+    "./**/*.ts",
+    "./**/*.js"
+  ],
+  "exclude": [
+    "./**/*.test.ts",
+    "../node_modules"
+  ]
+}
