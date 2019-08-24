@@ -1,7 +1,5 @@
 # FAST FullStack React with TypeScript starter kit.
 
-<img src="https://github.com/gilamran/fullstack-typescript/raw/master/assets/images/logo.png" width="150">
-
 ---
 
 ### Quick Start
@@ -30,10 +28,6 @@ git push -u origin master
 - Client and server can share code (And types). For example: [IUserDTO.d.ts](https://github.com/gilamran/fullstack-typescript/blob/master/src/shared/IUserDTO.d.ts)
 - The client is bundled using [Webpack](https://webpack.github.io/) because it goes to the browser.
 - The server is emitted by [TypeScript](https://github.com/Microsoft/TypeScript) because node 6 supports es6.
-
-<p align="center"> 
-<img src="https://github.com/gilamran/fullstack-typescript/raw/master/assets/images/flow.png" width="500">
-</p>
 
 ---
 
