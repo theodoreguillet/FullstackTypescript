@@ -25,7 +25,7 @@ git push -u origin master
 
 - **Simple** to jump into, **Fast** because it is simple.
 - Separate `tsconfig.json` for client and server.
-- Client and server can share code (And types). For example: [IUserDTO.d.ts](https://github.com/gilamran/fullstack-typescript/blob/master/src/shared/IUserDTO.d.ts)
+- Client and server can share code (And types).
 - The client is bundled using [Webpack](https://webpack.github.io/) because it goes to the browser.
 - The server is emitted by [TypeScript](https://github.com/Microsoft/TypeScript) because node 6 supports es6.
 
